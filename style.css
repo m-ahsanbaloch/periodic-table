@@ -1,0 +1,98 @@
+.main {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px auto;
+}
+.outline {
+  border: none;
+  background-color: gray;
+  border-radius: 5px;
+}
+
+.empty-1 {
+  border: none;
+}
+.empty-2 {
+  border: none;
+}
+.empty-3 {
+  border: none;
+}
+.empty-4 {
+  border: none;
+}
+
+.mark {
+  color: white;
+  cursor: pointer;
+}
+.mark:hover {
+  display: block;
+  color: green;
+  background-color: yellow;
+  transition: 0.6s ease-in-out;
+  border-radius: 10px;
+}
+.blue {
+  background-color: blue;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+}
+.blue:hover {
+  background-color: purple;
+  cursor: pointer;
+  transition: 0.4s;
+  color: grey;
+}
+.yellow {
+  background-color: yellowgreen;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+}
+.yellow:hover {
+  background-color: yellow;
+  cursor: pointer;
+  transition: 0.4s;
+  color: grey;
+}
+.orange {
+  background-color: orange;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+}
+.orange:hover {
+  background-color: rosybrown;
+  cursor: pointer;
+  transition: 0.4s;
+  color: grey;
+}
+.silver {
+  background-color: silver;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+}
+.silver:hover {
+  background-color: slategray;
+  cursor: pointer;
+  transition: 0.4s;
+  color: grey;
+}
+.green {
+  background-color: greenyellow;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+}
+.green:hover {
+  background-color: springgreen;
+  cursor: pointer;
+  transition: 0.4s;
+  color: grey;
+}
